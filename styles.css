@@ -119,6 +119,15 @@ main { max-width: 1080px; margin: 0 auto; padding: clamp(20px, 4vw, 48px) clamp(
 .footer { text-align: center; padding: 28px 16px 48px; color: var(--ink-soft); font-size: 14px; border-top: 1px solid var(--line); }
 .footer p { margin: 4px 0; }
 .footer-dim { opacity: .7; }
+.footer-credit {
+  margin-top: 14px !important;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  display: inline-block;
+  font-size: 13.5px;
+}
+.footer-credit a { color: var(--qc-deep); font-weight: 700; text-decoration: none; }
+.footer-credit a:hover { text-decoration: underline; }
 
 /* ---------- Hero (startsida) ---------- */
 .hero { padding: clamp(20px, 5vw, 56px) 0 8px; text-align: center; }
